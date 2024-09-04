@@ -1,0 +1,14 @@
+###
+GET http://localhost:8000/api/public
+
+###
+GET http://localhost:8000/api/secure
+X-Api-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOjE3MjUyMjUwMDEsInN1YiI6ImdlcnNvbiJ9.9OgGF2Ah1IZVJQaJwoV0dYjx1DeB5-O3meGpbKarpIk
+
+###
+GET http://localhost:8000/api/auth
+
+{
+    "username": "gerson",
+    "password": "123456"
+}
